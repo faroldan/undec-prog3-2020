@@ -6,11 +6,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
 import dominio.Genero;
-import dominio.Precio;
 import dominio.PrecioValorNegativoEx;
-import dominio.Producto;
 import dominio.ProductosValoresNulosEx;
-import dominio.Zapato;
+import models.Precio;
+import models.Producto;
+import models.Zapato;
 
 class TestPrecio {
 

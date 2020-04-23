@@ -1,4 +1,7 @@
-package dominio;
+package models;
+
+import dominio.Genero;
+import dominio.ProductosValoresNulosEx;
 
 public class Zapato extends Producto {
 	Genero gen;

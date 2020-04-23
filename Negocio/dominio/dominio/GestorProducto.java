@@ -3,6 +3,8 @@ package dominio;
 import java.util.ArrayList;
 import java.util.List;
 
+import models.Producto;
+
 public class GestorProducto {
 	List<Producto> productos = new ArrayList<Producto>();
 	static private GestorProducto gp;

@@ -1,7 +1,9 @@
-package dominio;
+package models;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
+
+import dominio.PrecioValorNegativoEx;
 
 public class Precio {
 	Calendar fecha;

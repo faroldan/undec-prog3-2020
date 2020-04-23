@@ -1,10 +1,13 @@
-package dominio;
+package models;
 
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.Iterator;
 import java.util.List;
+
+import dominio.PrecioValorNegativoEx;
+import dominio.ProductosValoresNulosEx;
 
 public class Producto {
 	int codigo;

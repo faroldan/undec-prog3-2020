@@ -1,4 +1,6 @@
-package dominio;
+package models;
+
+import dominio.CompradorDatosNulosEx;
 
 public class Comprador {
 	String apellido;

@@ -3,6 +3,8 @@ package dominio;
 import java.util.ArrayList;
 import java.util.List;
 
+import models.Factura;
+
 public class GestorFactura {
 	List<Factura> facturas;
 	// List<Producto> productos;

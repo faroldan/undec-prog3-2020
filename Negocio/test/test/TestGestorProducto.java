@@ -4,14 +4,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import dominio.Cartera;
 import dominio.Genero;
 import dominio.GestorProducto;
-import dominio.Precio;
 import dominio.PrecioValorNegativoEx;
-import dominio.Producto;
 import dominio.ProductosValoresNulosEx;
-import dominio.Zapato;
+import models.Cartera;
+import models.Precio;
+import models.Producto;
+import models.Zapato;
 
 class TestGestorProducto {
 

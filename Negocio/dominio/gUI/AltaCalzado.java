@@ -18,11 +18,11 @@ import javax.swing.border.EmptyBorder;
 
 import dominio.Genero;
 import dominio.GestorProducto;
-import dominio.Precio;
 import dominio.PrecioValorNegativoEx;
-import dominio.Producto;
 import dominio.ProductosValoresNulosEx;
-import dominio.Zapato;
+import models.Precio;
+import models.Producto;
+import models.Zapato;
 
 public class AltaCalzado extends JFrame {
 

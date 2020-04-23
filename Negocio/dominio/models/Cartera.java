@@ -1,4 +1,6 @@
-package dominio;
+package models;
+
+import dominio.ProductosValoresNulosEx;
 
 public class Cartera extends Producto {
 

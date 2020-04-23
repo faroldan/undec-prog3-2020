@@ -1,4 +1,4 @@
-package dominio;
+package models;
 
 public class Detalle {
 	Producto producto;
