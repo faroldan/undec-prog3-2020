@@ -26,4 +26,14 @@ public class Factura {
 		}
 		return null;
 	}
+	
+public double TotalFactura () throws PrecioValorNegativoEx {
+	double total=0;
+	for (Detalle d : detalles) {
+
+		total += d.producto.getUltimoPrecio();
+
+	}
+	return total;
+	}
 }
