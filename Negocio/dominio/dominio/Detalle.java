@@ -8,5 +8,7 @@ public class Detalle {
 		this.producto = producto;
 		Cantidad = cantidad;
 	}
+	
+	
 
 }
